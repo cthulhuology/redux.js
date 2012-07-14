@@ -33,7 +33,7 @@ Redux.match = function(Regex,Product) {
 
 Redux.reductions =  0
 
-
+// A sample reduction that creates new reductions based on pattern matching a /regex/ -> function body
 Redux.match(/\/([^\/]+)\/ -> (.*)/, function(In,Out,M,R,F) { 
 	R.gsub
 	var reg = new RegExp(R)
